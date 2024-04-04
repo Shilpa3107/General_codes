@@ -1,9 +1,10 @@
 import java.util.Scanner;
 class Length_of_last_word {
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
-        System.out.println(lengthOfLastWord(s));
+        try (Scanner sc = new Scanner(System.in)) {
+            String s = sc.next();
+            System.out.println(lengthOfLastWord(s));
+        }
     }
     public static int lengthOfLastWord(String s) {
         String str[] = null;
