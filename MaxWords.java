@@ -3,7 +3,7 @@ import java.util.ArrayList;
 class MaxWords {
     public static void main(String args[]){
         String[] sentences = {"alice and bob love leetcode","i think so too","this is great thanks very much"};
-        mostWordsFound(sentences);
+        System.out.println(mostWordsFound(sentences));
     }
     public static int mostWordsFound(String[] sentences) {
         ArrayList<Integer> list = new ArrayList<Integer>();
