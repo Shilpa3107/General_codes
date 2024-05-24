@@ -1,13 +1,13 @@
 public class Constructor {
 
     public static void main(String[] args) {
-        Circle obj = new Circle(6.2);
+        Circle1 obj = new Circle1(6.2);
         System.out.println("Area : "+obj.area());
     }
 }
-class Circle{
+class Circle1{
     double radius;
-      Circle(double r){
+      Circle1(double r){
         radius = r;
     }
     double area(){
