@@ -1,7 +1,7 @@
 class InterfaceExtension{
     public static void main(String args[]){
 
-        Test obj = new Test();
+        Test1 obj = new Test1();
         obj.meth1();
         obj.meth2();
         obj.meth3();
@@ -14,7 +14,7 @@ interface A{
 interface B extends A{
     void meth3();
 }
-class Test implements B{
+class Test1 implements B{
     public void meth1(){
         System.out.println("Meth1");
     }
