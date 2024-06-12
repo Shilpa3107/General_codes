@@ -1,6 +1,6 @@
 public class GeoAnalyzer {
     public static void main(String[] args) {
-        Circle2 obj = new Circle2();
+        Circle3 obj = new Circle3();
         obj.area(6.4);
         obj.perimeter(9.6);
         obj.display();
@@ -12,11 +12,11 @@ interface GeoAnalyzer1 {
     void perimeter(double r);
 }
 
-class Circle2 implements GeoAnalyzer1 {
+class Circle3 implements GeoAnalyzer1 {
     double area, perimeter;
 
     // Default constructor
-    public Circle2() {
+    public Circle3() {
     }
 
     @Override
