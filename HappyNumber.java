@@ -1,5 +1,5 @@
 class HappyNumber {
-    public static void main(string args[]){
+    public static void main(String args[]){
         System.out.println(isHappy(678));
     }
     public static boolean isHappy(int n) {
