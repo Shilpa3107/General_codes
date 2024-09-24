@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 public class kthSmallest{
     public static void main(String args[]){
         TreeNode root = new TreeNode(3);
@@ -11,6 +12,7 @@ public class kthSmallest{
     public static int smallest(TreeNode root, int k){
         ArrayList<Integer> list = new ArrayList<Integer>();
         traversal(root,list);
+        Collections.sort(list);
         return list.get(k-1);
     }
     public static void traversal(TreeNode root, ArrayList<Integer> list){

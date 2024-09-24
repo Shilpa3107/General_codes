@@ -1,6 +1,6 @@
 import java.util.Comparator; 
 import java.util.PriorityQueue; 
-import java.util.Scanner; 
+//import java.util.Scanner; 
 
 class Huffman { 
 
@@ -35,7 +35,7 @@ class Huffman {
 	public static void main(String[] args) 
 	{ 
 
-		Scanner s = new Scanner(System.in); 
+		//Scanner s = new Scanner(System.in); 
 
 		// number of characters. 
 		int n = 6; 
