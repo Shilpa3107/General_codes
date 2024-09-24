@@ -7,7 +7,6 @@ class EvalRPN {
     public static int evalRPN(String[] tokens) {
         Stack<Integer> stack = new Stack<Integer>();
         for(int i = 0;i<tokens.length;i++){
-            String s = tokens[i];
             if(tokens[i].equals("+") || tokens[i].equals("-") || tokens[i].equals("*") || tokens[i].equals("/")){
                 if(!stack.isEmpty()){
                     int x = stack.pop();
