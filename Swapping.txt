@@ -1,0 +1,18 @@
+public class Swapping{
+    public static void main(String args[]){
+       String s = "101";
+       System.out.println(swap(s));
+    }
+    public static long swap(String s){
+      long swap = 0;
+      int black = 0;
+        for(char ch : s.toCharArray()){
+           if(ch == '0')
+              swap += (long)black;
+           else 
+              black++;
+         }
+       return swap;
+    }
+}
+ 
