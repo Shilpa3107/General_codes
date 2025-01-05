@@ -1,12 +1,12 @@
 import java.util.HashMap;
 public class UniqueCharacters{
-    public stati void main(String args[]){
+    public static void main(String args[]){
         String s = "leetcode";
         System.out.println(uniqueCharacters(s));
     }
     public static int uniqueCharacters(String s){
         HashMap<Character,Integer> map = new HashMap<>();
-        HasMap<Character,Integer> map1 = new HashMap<>();
+        HashMap<Character,Integer> map1 = new HashMap<>();
         for(int i = 0;i<s.length();i++){
             map.put(s.charAt(i),map.getOrDefault(s.charAt(i),0)+1);
             map1.put(s.charAt(i),i);
