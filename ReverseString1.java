@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-class ReverseString {
+class ReverseString1 {
     public static void main(String args[]){
         String s = "IceCream";
         System.out.println(reverseVowels(s));
