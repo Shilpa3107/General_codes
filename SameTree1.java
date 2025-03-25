@@ -1,4 +1,4 @@
-public class SameTree1 extends TreeNode{
+public class SameTree1{
     public static void main(String args[]){
          TreeNode p = new TreeNode(1);
          p.left = new TreeNode(2);
@@ -8,11 +8,24 @@ public class SameTree1 extends TreeNode{
          q.right = new TreeNode(3);
          System.out.println(isSameTree(p,q));
     }
-    publi static boolean isSameTree(TreeNode p, TreeNode q){
+    public static boolean isSameTree(TreeNode p, TreeNode q){
         if(p == null && q == null)
           return true;
         if(p == null || q == null || p.val != q.val)
           return false;
         return isSameTree(p.left,q.left) && isSameTree(p.right,q.right);
     }
+}
+class TreeNode{
+  int val;
+  TreeNode left;
+  TreeNode right;
+  TreeNode(int val){
+    this.val = val;
+  }
+  TreeNode(int val, TreeNode left, TreeNode right){
+    this.val = val;
+    this.left = left;
+    this.right = right;
+  }
 }
