@@ -1,5 +1,5 @@
 class SnakesAndLadders {
-    public sttaic void main(String args[]) {
+    public static void main(String args[]) {
         int board[][] = { { -1,-1,-1,-1,-1,-1} ,{ -1,-1,-1,-1,-1,-1} ,{ -1,-1,-1,-1,-1,-1} ,{ -1,35,-1,-1,13,-1} ,{ -1,-1,-1,-1,-1,-1} ,{ -1,15,-1,-1,-1,-1} };
         SnakesAndLadders obj = new SnakesAndLadders();
         System.out.println(obj.snakesAndLadders(board));
