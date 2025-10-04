@@ -1,7 +1,7 @@
 class DifferenceOfSums {
     public static void main(String args[]){
           DifferenceOfSums obj = new DifferenceOfSums();
-          System.out.println(obj.differenceOfSums(10,2));
+          System.out.println(obj.differenceOfSums(10,3));
     }
     public int differenceOfSums(int n, int m) {
         int num1 = 0, num2 = 0;
